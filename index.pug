@@ -1,0 +1,45 @@
+
+doctype html
+html
+  head
+    title Harry Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+              div#logo
+                  img(src="/stat/img/logo.jpg.jpg")
+                  | HDA
+              li #[a(href="/") Home]
+              li #[a(href="/about") about]
+              li #[a(href="/contact") contact]
+              li #[a(href="/services") services]
+              li #[a(href="/") class Info      ]
+  section#introsection
+      div welcome to our World Dance Academy
+      div.small  SKY IS THE ONLY LIMIT 
+  section#missionsection
+       h2 Our Mission
+       div.card
+          h3 Legend Teachers
+          p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius officia delectus dolore in vel quis, aspernatur aliquid optio iusto quasi ad beatae cum? Nobis soluta omnis dolorem corporis culpa, saepe distinctio impedit deserunt.
+        
+       div.card     
+          h3 Certification of best Dance Academy
+          p  Lorem ipsum dolor sit axcepturi ipsa animi explicabo debitis similique, deserunt consequuntur expedita. Velit ipsam eum, explicabo laudantium quis magni. Dignissimos alias quo sit sint corporis quasi dolores.
+       div.card            
+          h3 Winner of world dance Championship
+          p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo ullam laudantium unde consequatur ducimus fugiat maxime placeat officia. Quibusdam nisi quo quaerat dolor obcaecati quia, rem architecto ullam officia illo ad, officiis cum.
+           
+  section#sponsersection
+       h2 Our Sponsers
+       div#sponsers
+          img(src="/stat/img/logo.png",alt="sponser image", class="spimage")
+          img(src="/stat/img/facebook.png",alt="sponser image", class="spimage") 
+          img(src="/stat/img/microsoft.png",alt="sponser image", class="spimage") 
+          img(src="/stat/img/linkdein.png",alt="sponser image", class="spimage")                  
+  footer#footer
+      | Copyright 2020  WorldDanceAcedemy.com | All Rights Reserved
+  script   
+       include ../static/index.js 
